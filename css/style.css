@@ -15,7 +15,7 @@
     margin: 40px 16%;
 }
 
-.contenido_conteiner_propio{
+.contenido_container_propio{
     display: grid;
     grid-template-columns: repeat(4, 4fr);
     margin: 0 10px;
@@ -118,11 +118,14 @@ footer{
     width: 80px;
 }
 
+/* CATEGORIAS ----------------------------------------- */
+
+
 
 /* Responsive  -------------------------------------------*/
 
 @media screen and (max-width: 1024px) {
-    .contenido_conteiner_propio{
+    .contenido_container_propio{
         grid-template-columns: repeat(2, 2fr);
        
     }
@@ -133,7 +136,7 @@ footer{
 }
 
 @media screen and (max-width: 425px) {
-    .contenido_conteiner_propio{
+    .contenido_container_propio{
         display: flex;
         flex-direction: column;
     } 
