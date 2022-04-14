@@ -119,10 +119,7 @@ footer{
 }
 
 /* CATEGORIAS ----------------------------------------- */
-main{
-    margin-bottom: 400px;
-    
-}
+
 
 .categorias_container_lista{
     display: flex;
@@ -148,6 +145,7 @@ main{
     margin: 110px ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;  
 }
 
 
@@ -169,6 +167,10 @@ main{
     .bg_proprio_nav_propio h1{
         color: white;
         padding-right: 20px;
+    }
+
+    .categorias_product_container p{
+        display: none;
     }
 }
 
