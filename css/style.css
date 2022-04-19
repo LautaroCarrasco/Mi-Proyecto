@@ -1,3 +1,4 @@
+/* HEADER------------------------------------------------------- */
 .bg_proprio_nav_propio{
     background-color: #052c65;
 }
@@ -11,6 +12,7 @@
     margin-bottom: 50px;
 }
 
+/* MAIN-------------------------------------------------------------- */
 .main_container{
     margin: 40px 16%;
 }
@@ -26,6 +28,70 @@
     width: 225;
     height: 225;
 }
+
+/* CATEGORIAS ----------------------------------------- */
+
+.categorias_container_lista{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.color_boton_propio{
+    background-color: #052c65;
+    color: white;
+}
+
+.color_boton_propio:hover{
+    background-color: #1552af;
+    color: white;
+}
+.text_decoration_none a{
+    text-decoration: none;
+}
+.trasform_item h5{
+    color: black;
+}
+.trasform_item p{
+    color: black;
+}
+
+/* LISTRA DE PORODUCTOS CATEGORIAS -------------------- */
+.categorias_product_container{
+    margin: 110px ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;  
+}
+
+
+/* HISTORIAL -------------------------------------------- */
+.container_historial{
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+}
+.historial_item{
+    grid-column: 2;
+}
+.pdf_proio{
+    color: black;
+    margin-left: 90%;
+    margin-bottom: 10px;
+}
+.titulo_historial{
+    font-size: 3rem;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.container_historial a:hover{
+    filter: opacity(60%);
+}
+
 
 /* DIV DEL PRODUCTO   */
 
@@ -117,61 +183,6 @@ footer{
     height: 80px;
     width: 80px;
 }
-
-/* CATEGORIAS ----------------------------------------- */
-
-
-.categorias_container_lista{
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-    justify-content: center;
-    gap: 20px;
-}
-
-.color_boton_propio{
-    background-color: #052c65;
-    color: white;
-}
-
-.color_boton_propio:hover{
-    background-color: #1552af;
-    color: white;
-}
-
-
-/* LISTRA DE PORODUCTOS CATEGORIAS -------------------- */
-.categorias_product_container{
-    margin: 110px ;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;  
-}
-
-
-/* HISTORIAL -------------------------------------------- */
-.container_historial{
-    display: grid;
-    grid-template-columns: 2fr 4fr 2fr ;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 30px;
-}
-.historial_item{
-    grid-column: 2;
-}
-.pdf_proio{
-    color: black;
-    margin-left: 90%;
-    margin-bottom: 10px;
-}
-.titulo_historial{
-    font-size: 3rem;
-    margin-left: 200px;
-    margin-top: 40px;
-}
-
-
 
 /* CONTACTANOS -------------------------------------------- */
 .contactanos_container{
