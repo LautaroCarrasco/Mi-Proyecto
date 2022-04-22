@@ -1,0 +1,187 @@
+/* HEADER------------------------------------------------------- */
+.bg_proprio_nav_propio {
+  background-color: #052c65;
+}
+
+.text_color_nav_propio a {
+  text-decoration: none;
+  color: white;
+}
+
+/* MAIN ---- */
+.main_container {
+  margin: 40px 16%;
+}
+
+.main_container h1 {
+  margin-bottom: 50px;
+}
+
+.main_container .contenido_container_propio {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (4fr)[4];
+      grid-template-columns: repeat(4, 4fr);
+  margin: 0 10px;
+  gap: 19px;
+}
+
+.main_container .img_content_product {
+  width: 225;
+  height: 225;
+}
+
+.main_container .product_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.main_container .product_container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.main_container .product_container .titulo_producto {
+  color: black;
+}
+
+.main_container .product_container .precio_del_producto {
+  color: black;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.main_container .trasform_item:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-filter: opacity(60%);
+          filter: opacity(60%);
+}
+
+/* FOOTER ----------- */
+footer {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.footer_conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.footer_conteiner .lista_tarjeta .mastercard {
+  height: 60px;
+  width: 80px;
+}
+
+.footer_conteiner .lista_tarjeta .visa {
+  height: 60px;
+  width: 80px;
+}
+
+.footer_conteiner .lista_footer {
+  margin-top: 20px;
+}
+
+.footer_conteiner .lista_footer .num_telefono {
+  display: inline;
+}
+
+.footer_conteiner .lista_footer .terms_condition {
+  display: inline;
+}
+
+.footer_conteiner .lista_footer .help {
+  display: inline;
+}
+
+.footer_conteiner .lista_redes .facebook {
+  height: 80px;
+  width: 80px;
+}
+
+.footer_conteiner .lista_redes .instagram {
+  height: 80px;
+  width: 80px;
+}
+
+.footer_conteiner .lista_redes .youtube {
+  height: 80px;
+  width: 80px;
+}
+
+.footer_conteiner .conteiner_derecha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+/* RESPONSIVE-------------------------------- */
+@media screen and (min-width: 769px) {
+  .bg_proprio_nav_propio h1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contenido_container_propio {
+    -ms-grid-columns: (2fr)[2];
+        grid-template-columns: repeat(2, 2fr);
+  }
+  .contenido_container_propio .product_container {
+    width: 100%;
+  }
+  .contenido_container_propio .bg_proprio_nav_propio h1 {
+    color: white;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .trasform_item:nth-child(3n) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .contenido_container_propio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=main.css.map */
