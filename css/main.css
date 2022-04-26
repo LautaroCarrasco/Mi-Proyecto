@@ -48,6 +48,10 @@ main {
 }
 
 /* CATEGORIAS ----------------------------------------- */
+.categorias_title {
+  margin-top: 20px;
+}
+
 .categorias_container_lista {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,7 +87,7 @@ main {
 
 /* LISTRA DE PORODUCTOS CATEGORIAS -------------------- */
 .categorias_product_container {
-  margin: 110px;
+  margin: 20px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
