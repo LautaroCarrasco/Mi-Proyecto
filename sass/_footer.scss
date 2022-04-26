@@ -1,0 +1,43 @@
+/* FOOTER ----------- */
+  
+footer {
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .mastercard {
+    height: 60px;
+    width: 80px;
+  }
+  
+  .footer_conteiner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .conteiner_derecha {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .lista_footer {
+    margin-top: 20px;
+  }
+  
+  .visa {
+    height: 60px;
+    width: 80px;
+  }
+  
+  .num_telefono, .terms_condition, .help {
+    display: inline;
+  }
+  
+  .facebook, .instagram, .youtube {
+    height: 80px;
+    width: 80px;
+  }
