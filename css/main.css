@@ -5,6 +5,7 @@
   background-color: #052c65;
 }
 
+/* Texto a color del nav */
 .text_color_nav_propio a {
   text-decoration: none;
   color: white;
@@ -303,8 +304,11 @@ footer {
   background-color: white;
 }
 
+/* Tarjetas */
 .mastercard {
-  height: 60px;
+  margin-left: 20px;
+  margin-right: 10px;
+  height: 80px;
   width: 80px;
 }
 
@@ -337,7 +341,7 @@ footer {
 }
 
 .visa {
-  height: 60px;
+  height: 80px;
   width: 80px;
 }
 
@@ -424,6 +428,7 @@ footer {
     width: 200px;
     margin-bottom: 40px;
   }
+  /* Carrito */
   .carrito_products {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -445,6 +450,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  /* Pagina principal */
   .contenido_container_propio:nth-child(3n) {
     display: none;
   }

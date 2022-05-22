@@ -6,9 +6,11 @@ footer {
     border: 1px solid  map-get($map:$colores , $key:text );
     background-color: rgb(255, 255, 255);
   }
-  
+  /* Tarjetas */
   .mastercard {
-    height: 60px;
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 80px;
     width: 80px;
   }
   
@@ -29,7 +31,7 @@ footer {
   }
   
   .visa {
-    height: 60px;
+    height: 80px;
     width: 80px;
   }
   
